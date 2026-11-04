@@ -1,0 +1,429 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-11-04",
+  "scope": "broad",
+  "policy": {
+    "geographic_scope_is_inventory_only": true,
+    "automatic_blocking_default": false,
+    "require_der_certificate_before_enforcement": true,
+    "sha256_required_for_release": true,
+    "sha1_role": "legacy_lookup_only",
+    "platform_status_must_be_separately_sourced": true
+  },
+  "certificates": [
+    {
+      "name": "Fake GitHub.Com",
+      "sha1_fingerprint": "27A29C3A8B3261770E8B59448557DC9E9339E68C",
+      "sha256_fingerprint": null,
+      "category": "incident_historical",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "Fake Google.Com",
+      "sha1_fingerprint": "F6BEADB9BC02E0A152D71C318739CDECFC1C085D",
+      "sha256_fingerprint": null,
+      "category": "incident_historical",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "Fake Yahoo.Com",
+      "sha1_fingerprint": "2290C311EA0F3F57E06DF45B698E18E828E59BC3",
+      "sha256_fingerprint": null,
+      "category": "incident_historical",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "CNNIC ROOT",
+      "sha1_fingerprint": "8BAF4C9B1DF02A92F7DA128EB91BACF498604B6F",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "China Internet Network Information Center EV Certificates Root",
+      "sha1_fingerprint": "4F99AA93FB2BD13726A1994ACE7FF005F2935D1E",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "CFCA GT CA",
+      "sha1_fingerprint": "EABDA240440ABBD694930A01D09764C6C2D77966",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "CFCA EV ROOT",
+      "sha1_fingerprint": "E2B8294B5584AB6B58C290466CAC3FB8398F8483",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "UCA Global Root",
+      "sha1_fingerprint": "0B972C9EA6E7CC58D93B20BF71EC412E7209FABF",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "UCA Root",
+      "sha1_fingerprint": "8250BED5A214433A66377CBC10EF83F669DA3A67",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "UCA EV Root",
+      "sha1_fingerprint": "B9C9F58B3BBEF575E2B58328770E7B0076C40B5E",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "ROOTCA",
+      "sha1_fingerprint": "DBB84423C928ABE889D0E368FC3191D151DDB1AB",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "SRCA",
+      "sha1_fingerprint": "AE3F2E66D48FC6BD1DF131E89D768D505DF14302",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "Certification Authority of WoSign",
+      "sha1_fingerprint": "B94294BF91EA8FB64BE61097C7FB001359B676CB",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "CA WoSign Chinese",
+      "sha1_fingerprint": "1632478D89F9213A92008563F5A4A7D312408AD6",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "Class 1 Primary CA",
+      "sha1_fingerprint": "6A174570A916FBE84453EED3D070A1D8DA442829",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "China Trust Network (1)",
+      "sha1_fingerprint": "C2CAEB0DC296FD50596BCA0F53C5364521167039",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "China Trust Network (2)",
+      "sha1_fingerprint": "B39B0B24B156D8B6123CAF7BA249DC81F27E39FA",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    },
+    {
+      "name": "China Trust Network (3)",
+      "sha1_fingerprint": "7C88AE178AE6AB8E69C30AF586D84EF29B6E6AE3",
+      "sha256_fingerprint": null,
+      "category": "ca_inventory",
+      "der_certificate_path": null,
+      "ca_owner": null,
+      "validity": {
+        "not_before": null,
+        "not_after": null
+      },
+      "platform_status": {
+        "microsoft": "unverified",
+        "mozilla": "unverified",
+        "chrome": "unverified",
+        "apple": "unverified",
+        "android": "unverified"
+      },
+      "evidence": [],
+      "enforcement": "none",
+      "audit_state": "legacy_record_requires_der_and_sha256_verification",
+      "source": "Legacy AntiChinaCerts README (2014-10-03); original certificate material must be checked against this fingerprint."
+    }
+  ]
+}
