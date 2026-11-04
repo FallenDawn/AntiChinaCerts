@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-11-04",
+  "scope": "broad",
+  "note": "This is an inventory of CA organizations to investigate, not a denylist.",
+  "owners": [
+    {
+      "name": "CNNIC",
+      "full_name": "China Internet Network Information Center",
+      "state": "legacy records present",
+      "next_step": "collect DER roots and reconcile current root-program status"
+    },
+    {
+      "name": "CFCA",
+      "full_name": "China Financial Certification Authority",
+      "state": "legacy records present",
+      "next_step": "collect DER roots and reconcile current root-program status"
+    },
+    {
+      "name": "SHECA",
+      "full_name": "Shanghai Electronic Certification Authority Center",
+      "aliases": [
+        "UCA",
+        "UniTrust"
+      ],
+      "state": "legacy records present",
+      "next_step": "identify current root generations and cross-signs"
+    },
+    {
+      "name": "BJCA",
+      "full_name": "Beijing Certificate Authority",
+      "state": "needs root DER collection",
+      "next_step": "enumerate CCADB roots and intermediates; distinguish self-signed roots from cross-signs"
+    },
+    {
+      "name": "WoSign/WoTrus",
+      "full_name": "WoSign / WoTrus",
+      "state": "legacy records present",
+      "next_step": "verify historical and current root material separately"
+    },
+    {
+      "name": "SRCA",
+      "full_name": "Sinorail Certification Authority",
+      "state": "legacy records present",
+      "next_step": "verify certificate material and current platform trust"
+    },
+    {
+      "name": "iTrusChina",
+      "full_name": "iTrusChina / China Trust Network",
+      "state": "legacy records present",
+      "next_step": "verify three legacy fingerprints and current platform trust"
+    },
+    {
+      "name": "OSCCA/ROOTCA",
+      "full_name": "Office of the State Commercial Cryptography Administration",
+      "state": "legacy record present",
+      "next_step": "determine certificate role and obtain authoritative DER"
+    }
+  ]
+}
